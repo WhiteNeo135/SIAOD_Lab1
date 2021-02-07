@@ -37,15 +37,7 @@ public class Main
             System.out.println("Введите минимальное возможное значение");
             max_limit = in.nextInt();
         }
-        matrix=Generator.matrix(m,n,min_limit,max_limit);
+        matrix = Generator.matrix(m, n, min_limit, max_limit);
 
-        for (int i=0; i<m; i++)
-        {
-            for (int j=0; j<n; j++)
-            {
-                System.out.print(matrix[i][j]+" ");
-            }
-            System.out.println();
-        }
     }
 }
