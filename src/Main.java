@@ -8,8 +8,8 @@ public class Main
         String ans = "";
         int n = 50;
         int m = 50;
-        int min_limit = -10;
-        int max_limit = 10;
+        int min_limit = -50; //минимальный лимит -1, т.к. иначе он не видит нижнюю границу
+        int max_limit = 50;
         boolean correct = false;
         Scanner in = new Scanner(System.in);
 
@@ -33,6 +33,7 @@ public class Main
             n = in.nextInt();
             System.out.println("Введите минимальное возможное значение");
             min_limit = in.nextInt();
+            min_limit--;
             System.out.println("Введите минимальное возможное значение");
             max_limit = in.nextInt();
         }
