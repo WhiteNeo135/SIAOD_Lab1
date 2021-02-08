@@ -13,7 +13,6 @@ public class Main
         long start_time;
 
         String ans = "";
-        String exit;
         boolean correct = false;
 
         int n = 50;
@@ -51,7 +50,6 @@ public class Main
 
         qsort_line = new int[n];
         sorted_matrix = new int[m][n];
-        matrix = Generator.matrix(m, n, min_limit, max_limit);
 
         do
         {
