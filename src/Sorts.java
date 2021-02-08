@@ -133,7 +133,7 @@ public class Sorts
 
 
 
-    public void heap_sort(int arr[])
+    public void heap_sort(int[] arr)
     {
         int n = arr.length;
 
@@ -156,7 +156,7 @@ public class Sorts
 
     // Процедура для преобразования в двоичную кучу поддерева с корневым узлом i, что является
 // индексом в arr[]. n - размер кучи
-    void heapify(int arr[], int n, int i)
+    void heapify(int[] arr, int n, int i)
     {
         int largest = i; // Инициализируем наибольший элемент как корень
         int l = 2 * i + 1; // левый = 2*i + 1
