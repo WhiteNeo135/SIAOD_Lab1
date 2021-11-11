@@ -1,2 +1,9 @@
-В данной лабораторной работе реализованы алгоритмы сортировки такие как:вставками, обменом, выборкой, кучей, Шелла и быстрая.
-Пирогов Андрей Антонович(БВТ1902)
+Lab1- Sorting Algorithms:
+
+Quicksort;
+Merge sort;
+Insertion sort;
+Shell sort;
+Heap sort;
+Selection sort;
+Tournament Sort.
